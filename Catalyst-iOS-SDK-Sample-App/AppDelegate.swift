@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.main.bounds)
-//        let config = try? ZCatalystAppConfiguration( clientId : "10021729017.I9SDHVVMNHIS3X7AHGFXUNODI4AAVA", clientSecret : "6edbc9ff216e279dc328c32de742d9655f5f1c682e", redirectURLScheme : "zcatalystsdk", portalId : "10021729017", projectId : "2823000000004001" )
         if let window = window
         {
             do
